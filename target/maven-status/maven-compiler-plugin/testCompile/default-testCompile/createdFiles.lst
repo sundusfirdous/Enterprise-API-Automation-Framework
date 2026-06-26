@@ -1,2 +1,5 @@
 base\BaseTest.class
+dataproviders\UserDataProvider.class
+tests\smoke\CreateUserTest.class
 tests\smoke\GetUserTest.class
+tests\regression\CreateUserDataDrivenTest.class

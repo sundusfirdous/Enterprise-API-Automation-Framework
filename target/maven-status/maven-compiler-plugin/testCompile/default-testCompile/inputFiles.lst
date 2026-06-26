@@ -1,2 +1,5 @@
 C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\base\BaseTest.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\smoke\CreateUserTest.java
 C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\smoke\GetUserTest.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\dataproviders\UserDataProvider.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\regression\CreateUserDataDrivenTest.java

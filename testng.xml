@@ -7,8 +7,11 @@
 
         <classes>
 
-            <class
-                name="tests.smoke.GetUserTest"/>
+            <class name="tests.smoke.GetUserTest"/>
+
+            <class name="tests.smoke.CreateUserTest"/>
+
+            <class name="tests.regression.CreateUserDataDrivenTest"/>
 
         </classes>
 
