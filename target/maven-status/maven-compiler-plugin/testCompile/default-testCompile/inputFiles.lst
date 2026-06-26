@@ -1,5 +1,12 @@
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tags\Smoke.java
 C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\base\BaseTest.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\regression\UserSchemaValidationTest.java
 C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\smoke\CreateUserTest.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\regression\UpdateUserTest.java
 C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\smoke\GetUserTest.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\Integration\UserWorkflowTest.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\regression\DeleteUserTest.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tags\Regression.java
 C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\dataproviders\UserDataProvider.java
+C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\auth\LoginTest.java
 C:\Users\HP\Enterprise-API-Automation-Framework\src\test\java\tests\regression\CreateUserDataDrivenTest.java

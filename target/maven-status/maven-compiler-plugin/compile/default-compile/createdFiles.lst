@@ -1,9 +1,14 @@
+services\BaseService.class
 services\UserService.class
 constants\FrameworkConstants.class
+payloads\LoginPayload.class
 models\User.class
+utils\FakerUtils.class
 config\ConfigManager.class
 utils\JsonUtils.class
 builders\RequestSpecificationBuilder.class
 endpoints\Routes.class
+auth\TokenManager.class
+services\AuthService.class
 utils\LoggerUtil.class
 builders\ResponseSpecificationBuilder.class

@@ -6,11 +6,12 @@ import models.User;
 
 import static io.restassured.RestAssured.given;
 
-public class UserService {
+public class UserService extends BaseService {
 
-    private UserService(){}
+    private UserService() {
+    }
 
-    public static Response getUser(int id){
+    public static Response getUser(int id) {
 
         return given()
                 .pathParam("id", id)
@@ -21,9 +22,10 @@ public class UserService {
                 .response();
     }
 
-    public static Response createUser(User user){
+    public static Response createUser(User user) {
 
         return given()
+                .contentType("application/json")
                 .body(user)
                 .when()
                 .post(Routes.CREATE_USER)
@@ -31,4 +33,29 @@ public class UserService {
                 .extract()
                 .response();
     }
+
+    public static Response updateUser(int id, User user) {
+
+        return given()
+                .contentType("application/json")
+                .pathParam("id", id)
+                .body(user)
+                .when()
+                .put(Routes.UPDATE_USER)
+                .then()
+                .extract()
+                .response();
+    }
+
+    public static Response deleteUser(int id) {
+
+        return given()
+                .pathParam("id", id)
+                .when()
+                .delete(Routes.DELETE_USER)
+                .then()
+                .extract()
+                .response();
+    }
+
 }

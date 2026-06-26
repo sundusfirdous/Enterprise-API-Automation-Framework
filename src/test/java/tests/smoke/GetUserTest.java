@@ -1,29 +1,29 @@
 package tests.smoke;
 
 import base.BaseTest;
-
+import io.restassured.response.Response;
+import models.User;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.*;
+import services.UserService;
 
 public class GetUserTest extends BaseTest {
 
     @Test
+    public void verifyUser() {
 
-    public void verifyUser(){
+        Response response = UserService.getUser(1);
 
-        given()
+        User user = response.as(User.class);
 
-        .when()
+        Assert.assertEquals(response.statusCode(), 200);
 
-            .get("/users/2")
+        Assert.assertEquals(user.getId(), 1);
 
-        .then()
+        Assert.assertEquals(user.getFirstName(), "Emily");
 
-            .statusCode(200)
+        Assert.assertEquals(user.getLastName(), "Johnson");
 
-            .log()
-
-            .all();
+        Assert.assertTrue(user.getEmail().contains("@"));
     }
 }

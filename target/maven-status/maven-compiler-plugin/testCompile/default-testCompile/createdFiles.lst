@@ -1,5 +1,12 @@
-base\BaseTest.class
-dataproviders\UserDataProvider.class
 tests\smoke\CreateUserTest.class
+tests\regression\UpdateUserTest.class
+tests\regression\UserSchemaValidationTest.class
+dataproviders\UserDataProvider.class
+tests\regression\DeleteUserTest.class
+tags\Smoke.class
+base\BaseTest.class
 tests\smoke\GetUserTest.class
+tags\Regression.class
+tests\integration\UserWorkflowTest.class
+tests\auth\LoginTest.class
 tests\regression\CreateUserDataDrivenTest.class
