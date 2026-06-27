@@ -553,6 +553,7 @@ Screenshots/
     postman-create-user.png
     postman-delete-user.png
     postman-delete-user2.png
+    postman-environment.png
     postman-get-user.png
     postman-login.png
     postman-update-user.png
