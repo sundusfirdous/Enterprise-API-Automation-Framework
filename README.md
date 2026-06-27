@@ -50,7 +50,6 @@ An enterprise-grade REST API Automation Framework built using **Java**, **REST A
 | Log4j2       | 2.24.1  |
 | DataFaker    | 2.4.2   |
 | Docker       | Latest  |
-| Jenkins      | Latest  |
 | Postman      | Latest  |
 | Newman       | Latest  |
 
