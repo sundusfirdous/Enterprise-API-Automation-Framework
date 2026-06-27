@@ -72,9 +72,6 @@ Enterprise-API-Automation-Framework
 ├───Docker
 │       Dockerfile
 │       
-├───Jenkins
-│       Jenkinsfile
-│       
 ├───Postman
 │   ├───Collections
 │   │       Enterprise API.postman_collection.json
@@ -95,7 +92,7 @@ Enterprise-API-Automation-Framework
 │       postman-authentication.png
 │       postman-create-user.png
 │       postman-delete-user.png
-│       postman-delete-user2.png
+│       newman-html-report.png
 │       postman-get-user.png
 │       postman-login.png
 │       postman-update-user.png
@@ -423,16 +420,7 @@ Run Docker Container
 ```bash
 docker run enterprise-api-framework
 ```
-
 ---
-
-# Jenkins
-
-Jenkins Pipeline file
-
-```
-Jenkins/Jenkinsfile
-```
 
 Run the project using Jenkins Pipeline.
 
@@ -475,7 +463,11 @@ Generate HTML Report
 ```bash
 newman run "Postman/Collections/Enterprise API.postman_collection.json" -e "Postman/Environments/QA.postman_environment.json" -r cli,htmlextra --reporter-htmlextra-export "Postman/Reports/NewmanReport.html"
 ```
+Open HTML Report in Browser
 
+```bash
+start .\Postman\Reports\NewmanReport.html
+```
 ---
 
 # Swagger
